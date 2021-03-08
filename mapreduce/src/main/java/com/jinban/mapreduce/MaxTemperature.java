@@ -20,7 +20,8 @@ import java.io.IOException;
 public class MaxTemperature {
 
     public static void main(String[] args) throws IOException {
-        action1(args);
+        String[] arr = {"E:\\document\\my\\h1.txt","E:\\document\\my\\h2.txt"};
+        action1(arr);
     }
 
     private static void action1(String[] args) throws IOException {
